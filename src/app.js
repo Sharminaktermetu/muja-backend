@@ -9,6 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
+    "https://shocks.dailyhutbd.com"
   ],
   methods: ["GET", "POST", "PATCH", "DELETE"],
 }));
